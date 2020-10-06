@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Discord.Net" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Plugin">
+      <HintPath>..\..\DiscordBotManager\Plugin\bin\Debug\netstandard2.0\Plugin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
